@@ -1,0 +1,6 @@
+.sass-cache
+.grunt
+node_modules/
+dist/
+src/img/sprites
+*.css*
