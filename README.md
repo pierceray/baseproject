@@ -2,7 +2,7 @@
 run `npm install` to install the dependencies
 
 ## How to Use
-Typically you are going to want to use `grunt server` for day to day development. 
+Typically you are going to want to use `grunt server` for day to day development.
 For more detailed information look at the [/grunt](/grunt) folder.
 
 ### Development
