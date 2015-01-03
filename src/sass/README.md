@@ -11,8 +11,8 @@
 	* Use placeholders if possiblbe, they need to be very semantic, very clear use cases though
 
 3. Variables
-	* ALL COLORS in _colors.scss file (No exceptions)
-	* **No Really**. No colors, darken, lighten, rgba, etc. in the sass.
+	* ALL COLORS go in the _colors.scss file (No exceptions)
+	* **No Really**. No colors, no darken, no lighten, no rgba, etc. in the sass partials.
 	* Media query's should have variablized breakpoints.
 	* dependent size variablized in context (parent/child relationships)
 	* Variables for global rhythm spacing
