@@ -4,9 +4,9 @@ var common = [
 	'.sass-cache'
 ];
 
-module.exports = function( grunt, options ){
+module.exports = function(){
 	return {
 		dist: common.concat(['dist']),
 		dev: common
-	}
+	};
 };

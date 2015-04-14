@@ -1,6 +1,6 @@
 module.exports = {
 	options: {
-		browsers: ['last 2 version', 'ie 8', 'ie 9']
+		browsers: ['last 2 version','> 5%','ie 9']
 	},
 	dev: {
 		src: 'src/css/**/*'
