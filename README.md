@@ -1,6 +1,6 @@
 # Base Project
 
-This is a baseline porject that can be used to as a starting point for other projects.  This particular project is geared pretty heavily to a Github Pages setup for a fairly simple website.
+This is a baseline project that can be used to as a starting point for other projects.  This particular project is geared pretty heavily to a Github Pages setup for a fairly simple website.
 
 ## Installation
 run `npm install` to install the dependencies
@@ -10,7 +10,7 @@ Typically you are going to want to use `grunt server` for day to day development
 For more detailed information look at the [/grunt](/grunt) folder.
 
 ### Development
-`grunt` - This will run the default grunt task.  In this case it will jshint and build the dev vesion of the sass.
+`grunt` - This will run the default grunt task.  In this case it will jshint and build the dev version of the sass.
 
 `grunt clean` - Cleans (removes) the built files.
 
