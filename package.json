@@ -15,20 +15,20 @@
   "homepage": "http://blog.digitalpierce.com/2014/07/14/base-projects/",
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-autoprefixer": "^3.0.0",
+    "grunt-autoprefixer": "^3.0.3",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-compass": "^1.0.3",
     "grunt-contrib-connect": "^0.10.1",
     "grunt-contrib-copy": "^0.8.0",
     "grunt-contrib-imagemin": "^0.9.4",
-    "grunt-contrib-jshint": "^0.11.1",
+    "grunt-contrib-jshint": "^0.11.2",
     "grunt-contrib-uglify": "^0.9.1",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-gh-pages": "^0.10.0",
     "grunt-open": "^0.2.3",
-    "load-grunt-config": "^0.17.0",
-    "load-grunt-tasks": "^3.1.0",
-    "time-grunt": "^1.1.0"
+    "load-grunt-config": "^0.17.2",
+    "load-grunt-tasks": "^3.2.0",
+    "time-grunt": "^1.2.1"
   }
 }
