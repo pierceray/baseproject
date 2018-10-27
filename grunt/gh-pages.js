@@ -1,8 +1,8 @@
 module.exports = {
-	dist: {
-		options: {
-			base: 'dist'
-		},
-		src: ['**']
-	}
+  dist: {
+    options: {
+      base: "dist"
+    },
+    src: ["**"]
+  }
 };

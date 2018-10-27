@@ -1,34 +1,34 @@
 default:
-- 'server'
+  - "server"
 
 test:
-- 'jshint'
+  - "jshint"
 
 build:
-- 'clean:dist'
-- 'jshint'
-- 'imagemin:static'
-- 'wellington:dist'
-- 'autoprefixer:dist'
-- 'uglify'
-- 'copy'
-- 'imagemin:distdynamic'
+  - "clean:dist"
+  - "jshint"
+  - "imagemin:static"
+  - "wellington:dist"
+  - "autoprefixer:dist"
+  - "uglify"
+  - "copy"
+  - "imagemin:distdynamic"
 
 deploy:
-- 'build'
-- 'gh-pages'
+  - "build"
+  - "gh-pages"
 
 server:
-- 'imagemin:static'
-- 'wellington:dev'
-- 'autoprefixer:dev'
-- 'imagemin:devdynamic'
-- 'connect:dev'
-- 'open:dev'
-- 'watch'
+  - "imagemin:static"
+  - "wellington:dev"
+  - "autoprefixer:dev"
+  - "imagemin:devdynamic"
+  - "connect:dev"
+  - "open:dev"
+  - "watch"
 
 server-dist:
-- 'build'
-- 'connect:dist'
-- 'open:dist'
-- 'watch'
+  - "build"
+  - "connect:dist"
+  - "open:dist"
+  - "watch"
