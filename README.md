@@ -36,4 +36,3 @@ To add additional aliases, you can add them to the `grunt/aliases.yaml` file.
 ## Coding Guidelines
 
 - [SASS/CSS Coding Guidelines](src/sass/README.md)
-- JavaScript must pass the .jshintrc rules at the base of the project. Run `grunt test`
