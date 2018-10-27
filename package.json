@@ -35,7 +35,9 @@
     "wellington-bin": "^1.3.0"
   },
   "husky": {
-    "pre-push": "pretty-quick && npm test",
-    "pre-commit": "pretty-quick --staged"
+    "hooks": {
+      "pre-push": "pretty-quick && npm test",
+      "pre-commit": "pretty-quick --staged"
+    }
   }
 }
