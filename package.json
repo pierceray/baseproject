@@ -2,7 +2,9 @@
   "name": "baseproject",
   "version": "0.0.0",
   "description": "baseproject website",
-  "scripts": {},
+  "scripts": {
+    "test": "grunt jshint"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/pierceray/baseproject"
