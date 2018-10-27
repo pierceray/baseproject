@@ -1,5 +1,7 @@
 # Base Project
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pierceray/baseproject.svg)](https://greenkeeper.io/)
+
 This is a baseline project that can be used to as a starting point for other projects. This particular project is geared pretty heavily to a Github Pages setup for a fairly simple website.
 
 ## Installation
