@@ -12,7 +12,6 @@
   "bugs": {
     "url": "https://github.com/pierceray/baseproject/issues"
   },
-  "homepage": "http://blog.digitalpierce.com/2014/07/14/base-projects/",
   "devDependencies": {
     "grunt": "^1.0.0",
     "grunt-autoprefixer": "^3.0.4",
