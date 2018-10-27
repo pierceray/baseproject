@@ -23,9 +23,9 @@ For more detailed information look at the [/grunt](/grunt) folder.
 
 `grunt connect:dev` - This will start the static file server for the development. You can also pass `:dist` to start server for the dist folder.
 
-`grunt server` - This will start a static files server, open [http://localhost:9000](http://localhost:9000), and run the watch task.
+`grunt server` - This will start a static files server, open [http://localhost:9090](http://localhost:9090), and run the watch task.
 
-`grunt server-dist` - Runs a `grunt build` and will start a static files server from the dist folder, open [http://localhost:9000](http://localhost:9000), and run the watch task. Probably as close to production setup as it's going to get.
+`grunt server-dist` - Runs a `grunt build` and will start a static files server from the dist folder, open [http://localhost:9090](http://localhost:9090), and run the watch task. Probably as close to production setup as it's going to get.
 
 To add additional aliases, you can add them to the `grunt/aliases.yaml` file.
 
