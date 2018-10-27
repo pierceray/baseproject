@@ -1,13 +1,12 @@
 language: node_js
 node_js:
   - "10"
-  - "8"
-  - "6"
+  - "8.12.0"
 script:
   - npm test
 before_install:
   - npm i -g npm@latest
   - npm i -g greenkeeper-lockfile@latest
-install: npm install
+install: npm ci
 before_script: greenkeeper-lockfile-update
 after_script: greenkeeper-lockfile-upload

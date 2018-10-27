@@ -1,12 +1,8 @@
 default:
   - "server"
 
-test:
-  - "jshint"
-
 build:
   - "clean:dist"
-  - "jshint"
   - "imagemin:static"
   - "wellington:dist"
   - "autoprefixer:dist"

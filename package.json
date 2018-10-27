@@ -4,7 +4,7 @@
   "description": "baseproject website",
   "scripts": {
     "pretty-quick": "pretty-quick",
-    "test": "npm run pretty-quick"
+    "test": "npx grunt build"
   },
   "repository": {
     "type": "git",
