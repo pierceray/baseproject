@@ -1,12 +1,6 @@
 language: node_js
-node_js:
-  - "12"
-  - "10"
-script:
-  - npm test
-before_install:
-  - npm i -g npm@latest
-  - npm i -g greenkeeper-lockfile@latest
-install: npm ci
+node_js: lts/*
+install: yarn
+before_install: yarn global add greenkeeper-lockfile@1
 before_script: greenkeeper-lockfile-update
 after_script: greenkeeper-lockfile-upload
